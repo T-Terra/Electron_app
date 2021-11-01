@@ -1,0 +1,16 @@
+{
+  "name": "Electron_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "npx electron-packager . --icon caminho/path --out=build"
+  },
+  "keywords": [],
+  "author": "Gabriel Terra",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^15.3.0"
+  }
+}
